@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "com.codderMonkey.dao")
+@ComponentScan(basePackages = {"com.codderMonkey.dao", "com.codderMonkey.service"})
 
 public class SpringRootConfig {
     

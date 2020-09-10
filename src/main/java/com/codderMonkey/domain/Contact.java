@@ -12,11 +12,22 @@ private Integer userId;//FK
 private String name;
 private String phone;
 private String email;
+private String address;
 private String remark;
 
     public Contact() {
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    
+    
     public Integer getContactId() {
         return contactId;
     }

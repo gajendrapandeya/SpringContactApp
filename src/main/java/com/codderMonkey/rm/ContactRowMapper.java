@@ -23,7 +23,7 @@ public class ContactRowMapper implements RowMapper<Contact> {
         c.setName(rs.getString("name"));
         c.setPhone(rs.getString("phone"));
         c.setEmail(rs.getString("email"));
-       // c.setAddress(rs.getString("address"));
+        c.setAddress(rs.getString("address"));
         c.setRemark(rs.getString("remark"));
         return c;
         
